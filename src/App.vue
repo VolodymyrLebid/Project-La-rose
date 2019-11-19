@@ -3,23 +3,13 @@
 
 <Header></Header>
 
-    <!-- / Header -->
 
 <router-view>
-    <!-- Hero -->
-
-<!--  <Home></Home>-->
 </router-view>
 
 <Footer></Footer>
-    <!-- / Footer -->
-
-
-
-    <!-- Modal -->
 
 <Modal></Modal>
-    <!-- / Modal -->
   </div>
 
 </template>

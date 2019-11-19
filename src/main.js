@@ -5,7 +5,10 @@ import './assets/css/fonts.css'
 import './assets/css/media.css'
 import './assets/css/vanilla-calendar.css'
 import './assets/css/main.css'
-
+// import $ from 'jquery'
+//
+import VueCarousel from 'vue-carousel';
+Vue.use(VueCarousel);
 import router from "@/routes";
 
 

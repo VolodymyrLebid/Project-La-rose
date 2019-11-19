@@ -10,7 +10,7 @@
                             Про салон краси La Rose
                         </h1>
                         <p>Салон краси La Rose у Чернівцях належить до числа ексклюзивних експерт-салонів "Loreal Salon Expert" i відзначається високою професійністю майстрів та використанням у роботі креативних ідей.</p>
-                        <a href="about.html" class="btn-o">Дізнатись більше</a>
+                        <router-link to="/about" class="btn-o">Дізнатись більше</router-link>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-6 text-center no-padding about-right">
