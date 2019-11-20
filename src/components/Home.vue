@@ -8,7 +8,7 @@
                     <p class="offer__text">
                         Наші майстри беруть на себе всі турботи і складні завдання у сфері краси та догляду за собою. Потрібен весільний макіяж для головного свята в житті? Душа бажає нового яскравого манікюру? Ніяких проблем – звертайтеся до нас!
                     </p>
-                    <a href="register.html" class="primary-btn">Записатись Онлайн</a>
+                    <router-link to="/register" class="primary-btn">Записатись Онлайн</router-link>
                 </div>
                 <div class="stats d-flex justify-content-between align-items-center">
                     <p class="stats__item">Сертифіковані <br> косметологи</p>

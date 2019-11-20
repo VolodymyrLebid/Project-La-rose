@@ -5,6 +5,7 @@ import Router from 'vue-router';
 // import App from "@/App";
 import AboutMore from "@/components/AboutMore";
 import Home from "@/components/Home";
+import Register from "@/components/Register";
 
 Vue.use(Router)
 
@@ -14,6 +15,7 @@ export default new Router({
     routes:[
         { path: '/', component: Home },
         { path: '/about', component: AboutMore },
+        { path: '/register', component: Register },
     ]
 
 });
