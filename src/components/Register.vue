@@ -294,7 +294,14 @@
                     </ul>
                 </div>
                 <div class="register-btn col-3 text-right">
-                    <a href="#" class="primary-btn">Записатись Онлайн</a>
+                    <b-button v-b-modal.modal-multi-1 class="btn-o" >Залишити відгук</b-button>
+                    <b-modal class="modal-success " size="lg" id="modal-multi-1"  ok-title=""  cancel-title="" ok-variant="none" cancel-variant="none" hide-footer hide-header content-class="myclass">
+                        <p>
+                            Ви успішно записались на процедуру косметологія в салоні краси LaRose<br>
+                            Дякуємо, що ви обрали нас.<br>
+                            Наш оператор зв’яжеться з вами в найближчий час.
+                        </p>
+                    </b-modal>
                 </div>
             </div>
         </div>
@@ -324,5 +331,31 @@
 </script>
 
 <style scoped>
+    button {
+        background: none;
+    }
 
+    button.btn-o {
+        font-family: "Proxima Nova Bold";
+        color: #000;
+        border: 3px solid #f03f69;
+        letter-spacing: .1em;
+        padding: 13px 27px;
+        margin: 0 auto;
+        display: block;
+        width: 230px;
+        text-align: center;
+        border-radius: 0px;
+    }
+
+    button.btn-o:hover {
+        background: #f03f69;
+        color: #fff;
+    }
+
+    .primary-btn:hover, .primary-btn {
+        background: #f03f69;
+        color: #fff;
+        border-radius: 0px;
+    }
 </style>
